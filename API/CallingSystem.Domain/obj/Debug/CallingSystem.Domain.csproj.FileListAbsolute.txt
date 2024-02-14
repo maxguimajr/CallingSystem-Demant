@@ -1,0 +1,9 @@
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\bin\Debug\CallingSystem.Domain.dll
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\bin\Debug\CallingSystem.Domain.pdb
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\obj\Debug\CallingSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\obj\Debug\CallingSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\obj\Debug\CallingSystem.Domain.dll
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\obj\Debug\CallingSystem.Domain.pdb
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xmagu\OneDrive\Área de Trabalho\ProjetoChamados\API\CallingSystem\CallingSystem.Domain\obj\Debug\CallingSystem.Domain.csproj.CopyComplete

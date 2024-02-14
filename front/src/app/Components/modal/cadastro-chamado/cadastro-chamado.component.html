@@ -1,0 +1,37 @@
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Adicione um chamado</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="fecharModal()"></button>
+      </div>
+      <form [formGroup]="meuForm">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-6 col-md-6">
+              <label for="floatingTextarea2">Departamento</label>
+              <select class="form-select" aria-label="Default select example"formControlName="departamentoId">
+                <option selected></option>
+                <option *ngFor="let departamento of departamentos" [value]="departamento.Id">{{departamento.NomeDepartamento}}</option>
+              </select>
+
+            </div>
+            <div class="col-sm-6 col-md-6">
+              <label for="inputData">Data para entrega</label>
+              <input type="date" class="form-control" id="inputData" placeholder="dd/mm/aaaa" formControlName="dataEntrega">
+            </div>
+          </div>
+
+          <label style="margin-top: 10px;" >Descrição</label>
+          <div class="form-floating" style="margin-top: 5px;">
+            <textarea class="form-control" placeholder="Descrição" id="floatingTextarea2" style="height: 100px"formControlName="descricao"></textarea>
+          </div>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="fecharModal()">Cancelar</button>
+        <button type="button" class="btn btn-primary" (click)="adicionarChamado();" >Salvar</button>
+      </div>
+    </div>
+  </div>
+

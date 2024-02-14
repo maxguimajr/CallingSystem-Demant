@@ -1,0 +1,23 @@
+
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Adicione um departamento</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="fecharModal()"></button>
+    </div>
+    <form [formGroup]="meuForm">
+      <div class="modal-body">
+
+          <label style="margin-top: 10px;" >Nome Departamento:</label>
+          <div class="form-floating" style="margin-top: 5px;">
+            <input type="text" class="form-control" id="exampleInputEmail1"  formControlName="NomeDepartamento">
+          </div>
+      </div>
+    </form>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="fecharModal()">Cancelar</button>
+      <button type="button" class="btn btn-primary" (click)="adicionarDepartamento();" >Salvar</button>
+    </div>
+  </div>
+</div>
+

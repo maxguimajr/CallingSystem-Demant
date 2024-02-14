@@ -1,0 +1,38 @@
+::ng-deep .bs-datepicker-container {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 10px;
+}
+
+::ng-deep .bs-datepicker-body table {
+  width: 100%;
+}
+
+::ng-deep .bs-datepicker-body table thead tr th {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+::ng-deep .bs-datepicker-body table tbody tr td {
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+::ng-deep .bs-datepicker-body table tbody tr td:hover {
+  background-color: #f2f2f2;
+}
+.theme-default .is-past {
+  color: #ccc;
+  cursor: default;
+}
+.card{
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.25);
+box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.25);
+}
